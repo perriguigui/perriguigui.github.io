@@ -41,13 +41,13 @@ function Lightbox(options) {
 // Descriptions of all options available on the demo site:
 // http://lokeshdhakar.com/projects/lightbox2/index.html#options
 Lightbox.defaults = {
-  albumLabel: 'Image %1 of %2',
+  albumLabel: 'Project %1 of %2',
   alwaysShowNavOnTouchDevices: false,
   fadeDuration: 600,
   fitImagesInViewport: true,
   imageFadeDuration: 600,
-  // maxWidth: 800,
-  // maxHeight: 600,
+  maxWidth: 800,
+  maxHeight: 600,
   positionFromTop: 50,
   resizeDuration: 700,
   showImageNumberLabel: true,
@@ -99,7 +99,7 @@ Lightbox.prototype.build = function() {
   }
 
   var self = this;
-  $('<div id="lightboxOverlay" class="lightboxOverlay"></div><div id="lightbox" class="lightbox"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /><div class="lb-nav"><a class="lb-prev" href="" ></a><a class="lb-next" href="" ></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div>').appendTo($('body'));
+  $('<div id="lightboxOverlay" class="lightboxOverlay"></div><div id="lightbox" class="lightbox"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"></div></div></div></div>').appendTo($('body'));
 
   // Cache jQuery objects
   this.$lightbox       = $('#lightbox');
@@ -114,7 +114,7 @@ Lightbox.prototype.build = function() {
     top: parseInt(this.$container.css('padding-top'), 10),
     right: parseInt(this.$container.css('padding-right'), 10),
     bottom: parseInt(this.$container.css('padding-bottom'), 10),
-    left: parseInt(this.$container.css('padding-left'), 10)
+    left: 300
   };
 
   this.imageBorderWidth = {
