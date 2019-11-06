@@ -99,7 +99,7 @@ Lightbox.prototype.build = function() {
   }
 
   var self = this;
-  $('<div id="lightboxOverlay" class="lightboxOverlay"></div><div id="lightbox" class="lightbox"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"></div></div></div></div>').appendTo($('body'));
+  $('<div id="lightboxOverlay" class="lightboxOverlay"></div><div id="lightbox" class="lightbox"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-number"></span></div><div class="lb-closeContainer"></div></div></div><span class="lb-caption"></span></div>').appendTo($('body'));
 
   // Cache jQuery objects
   this.$lightbox       = $('#lightbox');
@@ -114,7 +114,7 @@ Lightbox.prototype.build = function() {
     top: parseInt(this.$container.css('padding-top'), 10),
     right: parseInt(this.$container.css('padding-right'), 10),
     bottom: parseInt(this.$container.css('padding-bottom'), 10),
-    left: 300
+    left: parseInt(this.$container.css('padding-left'), 10)
   };
 
   this.imageBorderWidth = {

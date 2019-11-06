@@ -18,7 +18,7 @@ html.lb-disable-scrolling {
   background-color: #121212;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
-  display: none;
+
 }
 
 .lightbox {
@@ -175,46 +175,31 @@ html.lb-disable-scrolling {
   line-height: 1.1em;
 }
 
-.lb-data .lb-caption {
+#insideshowcase {
   position: absolute;
   background: #fafafa;
   border-radius: 2px;
 
   padding: 10px;
-  top: 20%;
-  left: 68%;
-  height: 50%;
-  width: 25%;
   text-align: left; 
-
 
   font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-
+  top:115%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
   
   font-size: 17px;
   font-weight: 300;
   line-height: 1.1;
-  color: #121212;
+  color: #181616;
   text-transform: inherit;
   letter-spacing: inherit;
 }
-.lb-data .lb-caption h1 {
-  font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  
-  font-size: 40px;
-  font-weight: 400;
-  line-height: 1.1;
-  color: #121212;
-  text-transform: inherit;
-  letter-spacing: inherit;
-}
-.lb-data .lb-caption a {
+
+#insideshowcase a {
   color: #4ae;
 }
 
