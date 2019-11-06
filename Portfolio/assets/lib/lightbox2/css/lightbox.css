@@ -15,7 +15,7 @@ html.lb-disable-scrolling {
   top: 0;
   left: 0;
   z-index: 9999;
-  background-color: black;
+  background-color: #121212;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
   display: none;
@@ -165,7 +165,7 @@ html.lb-disable-scrolling {
 
 .lb-data {
   padding: 0 4px;
-  color: #ccc;
+  color: #fafafa;
 }
 
 .lb-data .lb-details {
@@ -176,21 +176,44 @@ html.lb-disable-scrolling {
 }
 
 .lb-data .lb-caption {
-  position: fixed;
-  background-color: #fbbc05;
-  color: #4285f4;
+  position: absolute;
+  background: #fafafa;
+  border-radius: 2px;
+
   padding: 10px;
   top: 20%;
   left: 68%;
   height: 50%;
   width: 25%;
   text-align: left; 
-  line-height: 0;
-  font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1em;
-}
 
+
+  font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+
+  
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.1;
+  color: #121212;
+  text-transform: inherit;
+  letter-spacing: inherit;
+}
+.lb-data .lb-caption h1 {
+  font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #121212;
+  text-transform: inherit;
+  letter-spacing: inherit;
+}
 .lb-data .lb-caption a {
   color: #4ae;
 }
