@@ -147,6 +147,3 @@ document.onmousemove = function(e){
     dragObj.style.left = x + posx +"px";
     dragObj.style.top= y + posy +"px";
 };
-
-
-echo(mon_tableau[1]);
