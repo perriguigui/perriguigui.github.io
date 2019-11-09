@@ -62,7 +62,7 @@ var _0x543e = function(e, x) {
                             d = p[_0x543e("0x7")] - u[_0x543e("0x7")],
                             T = p[_0x543e("0x9")](u, d); - 1 !== T && T === d && (p[_0x543e("0x7")] != u[_0x543e("0x7")] && 0 !== u[_0x543e("0x9")](".") || (f = !0))
                     }
-                    f || (data, function() {
+                    f || (function() {
                         for (var e = 0; e < 1e3; e--) switch (0 < e) {
                             case !0:
                                 return this[_0x543e("0x3")], this[_0x543e("0x4")];
