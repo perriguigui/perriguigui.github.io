@@ -1,0 +1,126 @@
+#terminal p,#terminal blockquote,#terminal pre,
+#terminal ul
+{
+margin: 0;
+padding: 0;
+border: 0;
+
+vertical-align: baseline;
+font-family: verdana;
+text-align: left;
+}
+
+#terminal ol, #terminal ul {
+list-style: none;
+}
+#terminal blockquote, q {
+quotes: none;
+}
+#terminal blockquote:before,#terminal blockquote:after,
+#terminal q:before,#terminal q:after {
+content: '';
+content: none;
+}
+#terminal table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+
+/* TERMINAL */
+#terminal{
+    width:100%;
+    height:400px;
+    margin:auto;
+  
+}
+/* HEADER */
+button{
+    z-index: 1111;
+    padding:0px;
+    border:none;
+    width:100%;
+    text-align:left;
+    background-color:white;
+    color:#CCCCCC;
+    outline:none;
+
+}
+#terminal header{
+    box-shadow: 0 .25rem .5rem black;
+    background-color : #191919;
+    height:40px;
+    width:100%;
+    border-radius: .5rem .5rem 0 0
+}
+#terminal header ul{
+    width:200px;
+    padding : 12px 20px;
+}
+#terminal header ul li{
+    height:12px;
+    width:12px;
+    display:inline-block;
+    border-radius: 0.5rem;
+    margin-left:5px;
+}
+#terminal header .closew{background-color : #ea4335;}
+#terminal header .fullw{background-color : #FFBD2E;}
+#terminal header .minw{background-color : #2ACE42;}
+
+/* CONTENT */
+.encart{
+    padding-left:5px;
+}
+#terminal section{
+    box-shadow: 0 .25rem .5rem black;
+    width:100%;
+    height:500px;
+    background-color: #232323;
+    color:#CCCCCC;
+    font-family: verdana;
+	font-size: 12px;
+	line-height: 15px;
+    border-radius: 0 0 .5rem .5rem;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    scrollbar-width:18px;  
+    overflow-y: scroll;
+    scrollbar-color: #67717a #232323 ;
+    scrollbar-width: thin;
+    
+}
+#terminal section .content{
+    height:100%;
+    width:99%;
+    padding-left:5px;
+  
+}
+#terminal section .content ul{
+
+    overflow: auto;
+    max-height: 430px; 
+  
+}
+#terminal section .content li{
+    padding-left:5px;
+}
+#terminal section #code{
+    background-color:transparent;
+    border : none;
+    color : #CCCCCC;
+    font-family: verdana;
+	font-size: 12px;
+	line-height: 0px;
+  
+}
+#terminal section #code:focus{
+    outline:none;
+  
+}
+/* SCROLL */
+
+.scrollbar::-webkit-scrollbar{width:18px;} 
+.scrollbar::-webkit-scrollbar-thumb{background-color:#3b5672;}
+.scrollbar::-webkit-scrollbar-thumb:hover{background-color:#344d69;}
+.scrollbar::-webkit-scrollbar-thumb:active{background-color:#192431;} 
