@@ -375,13 +375,12 @@
                                             Works</h2>
                                         <!-- <hr class="hr-ornate" /> -->
                                     </div>
-                                    <div class="sortable" data-options='{"layoutMode":"packery"}'>
-                                        <div class="menu justify-content-center mb-3">
+                                    <div class=" clearfix sortable">
+                                        <div id = "portfolioFilter" class="menu justify-content-center mb-3 filters-button-group" data-isotope='{ "itemSelector": ".grid-item", "layoutMode": "fitRows" }'>
                                             <div class="item px-3 text-uppercase active" data-filter="*">All</div>
                                             <div class="item px-3 text-uppercase" data-filter=".game">Game</div>
                                             <div class="item px-3 text-uppercase" data-filter=".programs">Programs</div>
-                                            <div class="item px-3 text-uppercase" data-filter=".machineLearning">Machine
-                                                Learning</div>
+                                            <div class="item px-3 text-uppercase" data-filter=".machineLearning">Machine Learning</div>
 
                                         </div>
                                         <div class="row no-gutters sortable-container sortable-container-gutter-fix">
@@ -691,7 +690,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox-plus-jquery.min.js"></script>
     
 
-<script>
+    <script>
         lightbox.option({
             'albumLabel': 	"Project %1 of %2"
         })
@@ -700,7 +699,7 @@
     
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/accordion.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/transition.min.js"></script>
-
+    <script type="text/javascript" src="assets/js/categories.js"></script>
     <script type="text/javascript" src="assets/js/terminal.js"></script>
     <script src="test.js"></script>
 </body>
