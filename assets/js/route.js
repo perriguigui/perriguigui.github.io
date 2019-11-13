@@ -84,7 +84,7 @@ window.onload = function () {
         });
     }
 
-    var closeBtns = document.querySelectorAll(".btn-close");
+    var closeBtns = document.querySelectorAll(".bg-holder, .btn-close");
 
     for(let btn of closeBtns) {
         btn.addEventListener('click', function() {

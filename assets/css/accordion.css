@@ -1,0 +1,76 @@
+
+.ui.styled.accordion {
+    border-radius: .1875rem;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+}
+
+.acc_panel{
+    padding: 1rem 1.8rem;
+    color: #2b2b2b
+}
+.acc li {
+  list-style-type: none;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.acc_ctrl {
+  background: none;
+  border: none;
+  border-bottom: solid 1px #F2F2F2;
+  cursor: pointer;
+  display: block;
+  outline: none;
+  padding: 1em;
+  position: relative;
+  text-align: left;
+  padding-left:3% ;
+
+}
+
+.acc_ctrl:before {
+  background: #44596B;
+  content: '';
+  height: 2px;
+  margin-right: 37px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  width: 14px;
+}
+
+.acc_ctrl:after {
+  background: #44596B;
+  content: '';
+  height: 2px;
+  margin-right: 37px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 14px;
+}
+
+.acc_ctrl.active:before {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.acc_panel {
+  display: none;
+  overflow: hidden;
+}

@@ -25,9 +25,11 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal-default-theme.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" rel="stylesheet">
     <link href="/assets/lib/lightbox2/css/lightbox.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/accordion.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/transition.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="assets/css/accordion.css" rel="stylesheet">
     <link href="assets/css/theme.css" rel="stylesheet">
     <link href="assets/css/terminal.css" rel="stylesheet">
 </head>
@@ -278,18 +280,52 @@
 
                     <!-- ============================================-->
                     <!-- <section> begin ============================-->
-                    <section class="pt-5 pt-xl-7 pt-xxl-8">
+                    <section class="pt-5 pt-xl-7 pt-xxl-6">
                         <div class="container-fluid">
+                            <div class="text-center mb-5 mb-lg-6">
+                               <h2 class="fs-2 fs-sm-3"> <span class="font-weight-medium">History </span></h2>
+                            </div>
+                            <div class="ui styled fluid accordion mt-4 border-0">
+                                <ul class="acc">
+                                    <li>
+                                        <button class="acc_ctrl"><h5>Baccalauréat S | Lycée
+                                                Ferdinand buisson - Voiron</h5></button>
+                                        <div class="acc_panel">
+                                            <h5 style="color: #5c5d5d;">2017–2018</h5>
+                                            <p>Réalisé avec la spécialité informatique et réussi avecune mention
+                                            Assez Bien.</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <button class="acc_ctrl"><h5>MOOC Deep Learning | FunMooc et le Cnam</h5></button>
+                                        <div class="acc_panel">
+                                                <h5 style="color: #5c5d5d;">MARS 2019 – MAI 2019</h5>
+                                                <p>Réalisé durant mon temps libre afin de mieux comprendre le
+                                                    fonctionnement des intelligences artificielles.</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <button class="acc_ctrl"><h5>IUT Informatique Graphique | IUT du Puy-en-Velay</h5></button>
+                                        <div class="acc_panel">
+                                                <h5 style="color: #5c5d5d;">2018 – 2020</h5>
+                                                <p>En cours</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                                
+                        <!-- <div class="container-fluid">
                             <div class="row justify-content-center pb-5">
                                 <div class="col-lg-10">
                                     <div class="text-center mb-5 mb-lg-6">
-                                        <h2 class="fs-2 fs-sm-3"> <span class="font-weight-medium">History</span></h2>
+                                        <h2 class="fs-2 fs-sm-3"> <span class="font-weight-medium">History <i class="fa fa-plus "></i></span></h2>
                                     </div>
                                     <div class="row">
                                         <div class="ui styled fluid accordion mt-4 border-0"
                                             data-options='{"exclusive":false}'>
-                                            <h5 class="title active"><span class="fas fa-plus mr-1 text-800"
-                                                    data-fa-transform="shrink-6 down-1.5"></span> Baccalauréat S | Lycée
+                                            <h5 class="title active"><i class="fas fa-plus mr-1 text-800"
+                                                    data-fa-transform="shrink-6 down-1.5"></i> Baccalauréat S | Lycée
                                                 Ferdinand buisson - Voiron</h5>
                                             <div class="content pl-5 active">
                                                 <h5 style="color: #5c5d5d;">2017–2018</h5>
@@ -319,7 +355,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- end of .container-->
                     </section>
                     <!-- <section> close ============================-->
@@ -353,7 +389,7 @@
                                 class="d-lg-none" src="assets/img/times-black.svg" width="18" alt="" /></span>
                         <div class="bg-holder" style="background-image:url(assets/img/sidebars/history.jpg);"></div>
                         <!--/.bg-holder-->
-                        <h1 class="page-title">Faq</h1>
+                        <h1 class="page-title">History</h1>
                     </div>
                 </div>
             </div>
@@ -383,9 +419,9 @@
                                             <div class="item px-3 text-uppercase" data-filter=".machineLearning">Machine Learning</div>
 
                                         </div>
-                                        <div class="row no-gutters sortable-container sortable-container-gutter-fix">
+                                        <div class="row mt-4 no-gutters sortable-container sortable-container-gutter-fix">
 
-                                            <a class="col-6 col-md-4 sortable-item p-2 programs"
+                                            <a class="col-6 col-md-4 sortable-item  p-3 programs"
                                                 href="assets/img/projects/StegaSoft2.png" data-lightbox="image"
                                                 data-title="<div id='insideshowcase'><h2>StegaSoft</h2></br><p>Création d'un logiciel de steganography permant de cacher des fichiers ou du texte a travers des images.</br></br></br>Réalisé avec UWP en C#.</p><a href='https://github.com/perriguigui/StegaSoft'>see GitHub.</a></div>">
                                                 <img class="w-100 rounded" src="assets/img/projects/StegaSoft.png"
@@ -700,8 +736,9 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/accordion.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/transition.min.js"></script>
     <script type="text/javascript" src="assets/js/categories.js"></script>
+    <script type="text/javascript" src="assets/js/accordion.js"></script>
     <script type="text/javascript" src="assets/js/terminal.js"></script>
-    <script src="test.js"></script>
+    <script type="text/javascript" src="assets/js/route.js"></script>
 </body>
 
 </html>
