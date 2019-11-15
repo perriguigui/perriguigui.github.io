@@ -86,16 +86,16 @@ function capture(){
 
         //CD
         case "cd about":
-            window.location.replace("file:///C:/Users/anto/Documents/IUT/Portfolio/SiteWeb/index.html#about");
+            window.location.replace("https://perriguigui.github.io#about");
             break;
         case "cd history":
-            window.location.replace("file:///C:/Users/anto/Documents/IUT/Portfolio/SiteWeb/index.html#history");
+            window.location.replace("https://perriguigui.github.io#history");
             break;
         case "cd portfolio":
-            window.location.replace("file:///C:/Users/anto/Documents/IUT/Portfolio/SiteWeb/index.html#portfolio");
+            window.location.replace("https://perriguigui.github.io#portfolio");
             break;
         case "cd contact":
-            window.location.replace("file:///C:/Users/anto/Documents/IUT/Portfolio/SiteWeb/index.html#contact");
+            window.location.replace("https://perriguigui.github.io#contact");
             break;
         case "cd github":
             window.location.replace("https://github.com/perriguigui");

@@ -25,7 +25,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal-default-theme.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" rel="stylesheet">
     <link href="/assets/lib/lightbox2/css/lightbox.css" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/accordion.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/transition.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -54,6 +54,7 @@
                         <div class="mt-4">
                             <a class="text-900 font-weight-bold px-3" href="tel:+33668531044">CALL: +33 6 68 53 10
                                 44</a>
+                                
                             <a class="text-primary font-weight-bold px-3" href="#contact">Contact Me <span
                                     class="fas fa-chevron-right" data-fa-transform="shrink-4 down-1.5"></span></a>
                         </div>
@@ -208,7 +209,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row justify-content-center" id="fun-facts">
+                            <!-- <div class="row justify-content-center" id="fun-facts">
                                 <div class="col-lg-10">
                                     <div class="card-deck">
                                         <div class="card border-2x border-warning rounded py-5 px-3 text-center">
@@ -237,7 +238,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                         <!-- end of .container-->
                     </section>
@@ -628,30 +629,28 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        
                                         <div class="col-md-6 mb-4 mb-lg-0">
                                             <h4>Send me a line</h4>
                                             <p>Please feel free to send me a message for any questions.</p>
-                                            <form class="zform">
-                                                <input type="hidden" name="to" value="tom.per@orange.fr" />
+                                            <form class="zform" action="" method="POST" enctype="text/plain" target="_blank">
                                                 <div class="form-group">
-                                                    <label class="ls text-uppercase mb-0">Name</label>
-                                                    <input class="form-control" type="text" name="name" placeholder=""
-                                                        required="required" />
+                                                    <label class="ls text-uppercase mb-0">Object</label>
+                                                    <input id="object" class="form-control" type="text" name="Object" placeholder="" required="required" />
                                                 </div>
-                                                <div class="form-group">
+                                                <!-- <div class="form-group">
                                                     <label class="ls text-uppercase mb-0">Your Email</label>
-                                                    <input class="form-control" type="email" name="email" placeholder=""
-                                                        required="required" />
-                                                </div>
+                                                    <input class="form-control" type="email" name="email" placeholder="" required="required" />
+                                                </div> -->
                                                 <div class="form-group">
                                                     <label class="ls text-uppercase mb-0">Message</label>
-                                                    <textarea class="form-control" rows="4" name="message"
+                                                    <textarea id="message" class="form-control" rows="4" name="message"
                                                         placeholder="" required="required"></textarea>
                                                 </div>
                                                 <div class="zform-feedback"></div>
-                                                <button class="btn btn-block btn-success mt-4"
-                                                    style="background-color: #53bb62;" type="submit">Submit</button>
                                             </form>
+                                            <button id="sendMailBtn" class="btn btn-block btn-success mt-4"
+                                                    style="background-color: #53bb62;" type="submit">Submit</button>
                                         </div>
                                     </div>
                                 </div>
@@ -738,7 +737,9 @@
     
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/accordion.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/transition.min.js"></script>
+    <!-- <script type="text/javascript" src="assets/js/increment.js"></script> -->
     <script type="text/javascript" src="assets/js/loader.js"></script>
+    <script type="text/javascript" src="assets/js/sendmail.js"></script>
     <script type="text/javascript" src="assets/js/categories.js"></script>
     <script type="text/javascript" src="assets/js/accordion.js"></script>
     <script type="text/javascript" src="assets/js/terminal.js"></script>
