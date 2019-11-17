@@ -81,7 +81,7 @@ function capture(){
             
         //DOWNLOAD
         case "download CV":
-            window.open("file:///C:/Users/anto/Documents/IUT/Portfolio/SiteWeb/doc/CVAntoninPERRIN.pdf", '_blank', null);
+            window.open("https://perriguigui.github.io/doc/CVAntoninPERRIN.pdf", '_blank', null);
             break;
 
         //CD
