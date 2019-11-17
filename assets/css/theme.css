@@ -12204,14 +12204,25 @@ a.text-dark:hover {
 
 }
 
-#gridNav {
+#gridNavmenu {
     -webkit-transition: right .6s ease-in-out;
     -o-transition: right .6s ease-in-out;
     transition: right .6s ease-in-out;
     z-index: 1050;
     padding: 0 15px;
-    left: 50%;
+
 }
+@media (max-width:992px) {
+    #gridNavmenu{
+        left: 0%;
+    }
+}
+@media (min-width:992px) {
+    #gridNavmenu{
+        left: 50%;
+    }
+}
+
 
 .sidebar-item-wrapper {
     display: -webkit-box;

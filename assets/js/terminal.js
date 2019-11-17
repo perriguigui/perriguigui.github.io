@@ -65,7 +65,7 @@ function capture(){
             insert.value ="";
             message.innerHTML = "";
             write("- <span style='color:green;'>Mastered language:</span>");
-            write(tab +"<span style='color:purple;'>C++/C#</span>");
+            write(tab +"C++/C#");
             write(tab +"Python");
             write(tab +"html/css/php/js");
             write("- <span style='color:green;'>Mastered FrameWork/Soft:</span>");
