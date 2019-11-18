@@ -81,7 +81,7 @@ function capture(){
             
         //DOWNLOAD
         case "download CV":
-            window.open("https://perriguigui.github.io/doc/CVAntoninPERRIN.pdf", '_blank', null);
+            window.open("https://github.com/perriguigui/perriguigui.github.io/blob/master/doc/CVAntoninPERIN.pdf", '_blank', null);
             break;
 
         //CD
