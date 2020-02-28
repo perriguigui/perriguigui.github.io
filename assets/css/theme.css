@@ -15212,7 +15212,7 @@ a.text-white:hover {
 
 .card {
   margin: 2rem;
-  background: #fffff9;
+  background: #fffffd;
   border-radius: 1rem;
   box-shadow: 0px 30px 20px -10px rgba(0,0,0,0.2);
   max-width: 300px;
@@ -15251,8 +15251,8 @@ a.text-white:hover {
   position: absolute;
   top: 0;
   left: 0;
-  /* width: 100%;
-  height: 100%; */
+  width: 100%;
+  height: 100%;
 }
 .card .top .social-buttons {
   padding: 1.5rem;
@@ -15309,7 +15309,7 @@ a.text-white:hover {
 .card .bottom {
   padding: 1.5rem;
   padding-top: 1rem;
-  background-color: #f3efa1;
+  background-color: #ffc629;
   border-radius: 0rem 0rem 1rem 1rem;
 }
 .card .bottom .desc {
@@ -15370,4 +15370,7 @@ a.text-white:hover {
 }
 span.fab.fa-github{
     color:white;
+}
+.like a{
+    text-decoration:none;
 }
