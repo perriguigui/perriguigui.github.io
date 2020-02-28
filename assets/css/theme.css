@@ -15344,7 +15344,7 @@ a.text-white:hover {
   width: 40px;
   height: 23.09px;
   background-color: #ffc629;
-  margin: 11.55px 0;
+  margin: 0;
 }
 .hexagon:hover {
   box-shadow: 0px 15px 15px -5px rgba(0,0,0,0.2);
@@ -15368,4 +15368,6 @@ a.text-white:hover {
   width: 0;
   border-top: 11.55px solid #ffc629;
 }
-
+span.fab.fa-github{
+    color:white;
+}
