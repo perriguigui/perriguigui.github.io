@@ -25,7 +25,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal-default-theme.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" rel="stylesheet">
     <link href="/assets/lib/lightbox2/css/lightbox.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/accordion.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/transition.min.css"
         rel="stylesheet">
@@ -378,6 +378,8 @@
                                             <div class="item px-3 text-uppercase active" data-filter="*">All</div>
                                             <div class="item px-3 text-uppercase" data-filter=".game">Game</div>
                                             <div class="item px-3 text-uppercase" data-filter=".programs">Programs</div>
+                                            <div class="item px-3 text-uppercase" data-filter=".application">Application
+                                            </div>
                                             <div class="item px-3 text-uppercase " data-filter=".machineLearning">
                                                 Machine Learning</div>
 
@@ -385,22 +387,36 @@
                                         <div
                                             class="row mt-6 no-gutters sortable-container sortable-container-gutter-fix">
 
-                                            <!-- <a class="col-6 col-md-4 sortable-item  p-3 programs"
-                                                href="assets/img/projects/StegaSoft2.png" data-lightbox="image"
-                                                data-title="<div id='insideshowcase'><h2>StegaSoft</h2></br><p>Creation of a steganography software allowing hiding files or text through images.</br></br></br> Made with UWP in C#.</p><a href='https://github.com/perriguigui/StegaSoft'>see GitHub.</a></div>">
-                                                <img class="w-100 rounded" src="assets/img/projects/StegaSoft.png"
-                                                    alt="" />
-                                            </a> -->
+                                            <div class="col-6 col-md-4 sortable-item programs game card">
+                                                <div class="top"><img class="w-100 rounded"
+                                                        src="assets/img/projects/HumbugEngineResize.png" alt="" />
+                                                    <div class="social-buttons"></div>
+                                                    <div class="text">
+                                                        <div class="name-wrapper">
+                                                            <!-- <div class="name">HumbugEngine</div> -->
+                                                        </div>
+                                                        <div class="title">Made in C++.</div>
+                                                    </div><button class="like">
+                                                        <a href='https://github.com/ColinEspinas/HumbugEngine'>
+                                                            <div class="hexagon">
+                                                                <span class="fab fa-github"></span>
+                                                            </div>
+                                                        </a>
+                                                    </button>
+                                                </div>
 
-                                            <!-- <a class="col-6 col-md-4 sortable-item p-2 machineLearning"
-                                                href="assets/img/projects/autonomeCar.jpg" data-lightbox="image"
-                                                data-title="<div id='insideshowcase'><h3>Autonomous car</h3>Simulation of an autonomous car which chooses itself if they have to turn left or right. Made with Tensorflow / Keras. </br></br>Made with Tensorflow / Keras.</p><a href='https://github.com/perriguigui/SelfDrivingCar'>See GitHub.</a></div>">
-                                                <img class="w-70 rounded" src="assets/img/projects/autonomeCar.jpg"
-                                                    alt="" />
-                                            </a> -->
+                                                <div class="bottom">
+                                                    <div class="desc">Participation in the creation of a non-Euclidean
+                                                        game engine.
+                                                    </div>
+                                                    <div class="buttons">
+                                                    </div>
+                                                </div>
+                                            </div>
 
                                             <div class="col-6 col-md-4 sortable-item machineLearning card">
-                                                <div class="top"><img class="w-100 rounded" src="assets/img/projects/VocalsAssistant.png" alt="" />
+                                                <div class="top"><img class="w-100 rounded"
+                                                        src="assets/img/projects/VocalsAssistant.png" alt="" />
                                                     <div class="social-buttons"></div>
                                                     <div class="text">
                                                         <div class="name-wrapper">
@@ -413,26 +429,154 @@
                                                                 <span class="fab fa-github"></span>
                                                             </div>
                                                         </a>
-                        
                                                     </button>
                                                 </div>
 
                                                 <div class="bottom">
-                                                    <div class="desc">Speech recognition using Tensorflow and Keras. </div>
+                                                    <div class="desc">Speech recognition using Tensorflow and Keras.
+                                                    </div>
                                                     <div class="buttons">
                                                     </div>
                                                 </div>
                                             </div>
 
-                                            <!-- <a class="col-6 col-md-4 sortable-item p-2 machineLearning"
-                                                href="assets/img/projects/VocalsAssistant.png" data-lightbox="image"
-                                                data-title="<div id='insideshowcase'><h3>Speech to text</h3></br><p>🚧 IN WORKS 🚧</br></br>Speech recognition using Tensorflow and Keras. </p><a href='https://github.com/perriguigui/Vocal-Assistant'>See GitHub.</a></div>">
-                                                <img class="w-100 rounded" src="assets/img/projects/VocalsAssistant.png"
-                                                    alt="" />
-                                            </a> -->
+                                            <div class="col-6 col-md-4 sortable-item game application card">
+                                                <div class="top"><img class="w-100 rounded"
+                                                        src="assets/img/projects/portalBoundsResize.png" alt="" />
+                                                    <div class="social-buttons"></div>
+                                                    <div class="text">
+                                                        <div class="name-wrapper">
+                                                            <!-- <div class="name">PortalBounds🌌🌌</div> -->
+                                                        </div>
+                                                        <div class="title">Made with Unity in C #.</div>
+                                                    </div><button class="like">
+                                                        <a
+                                                            href='https://play.google.com/store/apps/details?id=com.BoundsStudio.PortalBounds&hl=fr'>
+                                                            <div class="hexagon">
+                                                                <span class="fab fa-android"></span>
+                                                            </div>
+                                                        </a>
+                                                    </button>
+                                                </div>
+
+                                                <div class="bottom">
+                                                    <div class="desc">Puzzles and strategy game in a colourful space
+                                                        atmosphere.
+                                                    </div>
+                                                    <div class="buttons">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6 col-md-4 sortable-item machineLearning card">
+                                                <div class="top"><img class="w-100 rounded"
+                                                        src="assets/img/projects/autonomeCar.jpg" alt="" />
+                                                    <div class="social-buttons"></div>
+                                                    <div class="text">
+                                                        <div class="name-wrapper">
+                                                            <div class="name">Autonomous car</div>
+                                                        </div>
+                                                        <div class="title">Made with Tensorflow / Keras.</div>
+                                                    </div><button class="like">
+                                                        <a href='https://github.com/perriguigui/SelfDrivingCar'>
+                                                            <div class="hexagon">
+                                                                <span class="fab fa-github"></span>
+                                                            </div>
+                                                        </a>
+                                                    </button>
+                                                </div>
+
+                                                <div class="bottom">
+                                                    <div class="desc">Simulation of an autonomous car which chooses itself if they have to turn left or right.  
+                                                    </div>
+                                                    <div class="buttons">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6 col-md-4 sortable-item application card">
+                                                <div class="top"><img class="w-100 rounded"
+                                                        src="assets/img/projects/RecipifyResize.png" alt="" />
+                                                    <div class="social-buttons"></div>
+                                                    <div class="text">
+                                                        <div class="name-wrapper">
+                                                            <!-- <div class="name">Recipify</div> -->
+                                                        </div>
+                                                        <div class="title">Made with ionic</div>
+                                                    </div><button class="like">
+                                                        <a
+                                                            href='https://play.google.com/store/apps/details?id=io.recipify.app'>
+                                                            <div class="hexagon">
+                                                                <span class="fab fa-android"></span>
+                                                            </div>
+                                                        </a>
+
+                                                    </button>
+                                                </div>
+
+                                                <div class="bottom">
+                                                    <div class="desc">App to easily find recipes related to a scanned
+                                                        product.</div>
+                                                    <div class="buttons">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6 col-md-4 sortable-item all card">
+                                                <div class="top"><img class="w-100 rounded"
+                                                        src="assets/img/projects/modeResize.png" alt="" />
+                                                    <div class="social-buttons"></div>
+                                                    <div class="text">
+                                                        <div class="name-wrapper">
+                                                            <div class="name">3D Modélisation</div>
+                                                        </div>
+                                                        <div class="title"></div>
+                                                    </div><button class="like">
+                                                        <a href='https://www.artstation.com/perriguigui'>
+                                                            <div class="hexagon">
+                                                                <span class="fab fa-artstation"></span>
+                                                            </div>
+                                                        </a>
+                                                    </button>
+                                                </div>
+                                                <div class="bottom">
+                                                    <div class="desc">Realisation of 3D models for personal projects.
+                                                    </div>
+                                                    <div class="buttons">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6 col-md-4 sortable-item game card">
+                                                <div class="top"><img class="w-100 rounded"
+                                                        src="assets/img/projects/HumanLess.png" alt="" />
+                                                    <div class="social-buttons"></div>
+                                                    <div class="text">
+                                                        <div class="name-wrapper">
+                                                            <div class="name">HumanLess</div>
+                                                        </div>
+                                                        <div class="title">Made with Unity in C #.</div>
+                                                    </div><button class="like">
+                                                        <a href='https://youtu.be/gnQSbuiV-JY'>
+                                                            <div class="hexagon">
+                                                                <span class="fab fa-youtube"></span>
+                                                            </div>
+                                                        </a>
+
+                                                    </button>
+                                                </div>
+
+                                                <div class="bottom">
+                                                    <div class="desc">...
+                                                    </div>
+                                                    <div class="buttons">
+                                                    </div>
+                                                </div>
+                                            </div>
 
                                             <div class="col-6 col-md-4 sortable-item programs card">
-                                                <div class="top"><img class="w-100 rounded" src="assets/img/projects/multiTread.png" alt="" />
+                                                <div class="top"><img class="w-100 rounded"
+                                                        src="assets/img/projects/multiTread.png" alt="" />
                                                     <div class="social-buttons"></div>
                                                     <div class="text">
                                                         <div class="name-wrapper">
@@ -445,10 +589,8 @@
                                                                 <span class="fab fa-github"></span>
                                                             </div>
                                                         </a>
-                        
                                                     </button>
                                                 </div>
-
                                                 <div class="bottom">
                                                     <div class="desc">Sorting test using multiThreading
                                                     </div>
@@ -456,113 +598,6 @@
                                                     </div>
                                                 </div>
                                             </div>
-
-                                            <div class="col-6 col-md-4 sortable-item programs game card">
-                                                <div class="top"><img class="w-100 rounded" src="assets/img/projects/HumbugEngine.png" alt="" />
-                                                    <div class="social-buttons"></div>
-                                                    <div class="text">
-                                                        <div class="name-wrapper">
-                                                            <div class="name">HumbugEngine</div>
-                                                        </div>
-                                                        <div class="title">Made in C++.</div>
-                                                    </div><button class="like">
-                                                        <a href='https://github.com/ColinEspinas/HumbugEngine'>
-                                                            <div class="hexagon">
-                                                                <span class="fab fa-github"></span>
-                                                            </div>
-                                                        </a>
-                        
-                                                    </button>
-                                                </div>
-
-                                                <div class="bottom">
-                                                    <div class="desc">Participation in the creation of a non-Euclidean game engine.
-                                                    </div>
-                                                    <div class="buttons">
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-6 col-md-4 sortable-item programs game card">
-                                                <div class="top"><img class="w-100 rounded" src="assets/img/projects/portalBounds.png" alt="" />
-                                                    <div class="social-buttons"></div>
-                                                    <div class="text">
-                                                        <div class="name-wrapper">
-                                                            <div class="name">PortalBounds🌌🌌</div>
-                                                        </div>
-                                                        <div class="title">Made with Unity in C #.</div>
-                                                    </div><button class="like">
-                                                        <a href='https://play.google.com/store/apps/details?id=com.BoundsStudio.PortalBounds&hl=fr'>
-                                                            <div class="hexagon">
-                                                                <span class="fab fa-github"></span>
-                                                            </div>
-                                                        </a>
-                        
-                                                    </button>
-                                                </div>
-
-                                                <div class="bottom">
-                                                    <div class="desc">Puzzles and strategy game in a colourful space atmosphere.
-                                                    </div>
-                                                    <div class="buttons">
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                            <div class="col-6 col-md-4 sortable-item programs game card">
-                                                <div class="top"><img class="w-100 rounded" src="assets/img/projects/HumanLess.png" alt="" />
-                                                    <div class="social-buttons"></div>
-                                                    <div class="text">
-                                                        <div class="name-wrapper">
-                                                            <div class="name">HumanLess</div>
-                                                        </div>
-                                                        <div class="title">Made with Unity in C #.</div>
-                                                    </div><button class="like">
-                                                        <a href='https://youtu.be/gnQSbuiV-JY'>
-                                                            <div class="hexagon">
-                                                                <span class="fab fa-github"></span>
-                                                            </div>
-                                                        </a>
-                        
-                                                    </button>
-                                                </div>
-
-                                                <div class="bottom">
-                                                    <div class="desc">...
-                                                    </div>
-                                                    <div class="buttons">
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-6 col-md-4 sortable-item programs game card">
-                                                <div class="top"><img class="w-100 rounded" src="assets/img/projects/mode.jpg" alt="" />
-                                                    <div class="social-buttons"></div>
-                                                    <div class="text">
-                                                        <div class="name-wrapper">
-                                                            <div class="name">3D Modélisation</div>
-                                                        </div>
-                                                        <div class="title"></div>
-                                                    </div><button class="like">
-                                                        <a href='https://youtu.be/gnQSbuiV-JY'>
-                                                            <div class="hexagon">
-                                                                <span class="fab fa-github"></span>
-                                                            </div>
-                                                        </a>
-                        
-                                                    </button>
-                                                </div>
-
-                                                <div class="bottom">
-                                                    <div class="desc">Realisation of 3D models for personal projects.
-                                                    </div>
-                                                    <div class="buttons">
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                    
 
                                         </div>
                                     </div>
@@ -788,13 +823,6 @@
     <script type="text/javascript" src="/assets/lib/isotope-packery/packery-mode.pkgd.min.js"></script>
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox-plus-jquery.min.js"></script>
-
-
-    <script>
-        lightbox.option({
-            'albumLabel': "Project %1 of %2"
-        })
-    </script>
 
 
     <script type="text/javascript"
