@@ -15391,3 +15391,8 @@ span.fab{
 .like a{
     text-decoration:none;
 }
+
+.recaap-img{
+    width: 100%;
+    box-shadow: 0 .25rem .5rem black;
+}
